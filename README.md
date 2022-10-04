@@ -10,10 +10,16 @@ Microservices using Spring Boot
 - Remember: Spring Boot 3+ works only with Java 17+
 
 ### Introduction
-- currency-conversion-service  and currency-conversion-service are microservices
-- currency-conversion-service depends on currency-exachange-service
-- api-gateway will expose above microservices
-- naming-server is a Eureka Naming serve
+Spring Boot has a lot of magic going for it. 
+
+Developing applications with it is cool and fun.
+
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can “just run”. Most Spring Boot applications need very little Spring configuration.
+
+This repository contains cool things about Spring boot and microservices developed using Spring Boot (4 projects).
+- currency-conversion-service  and currency-conversion-service are microservices(currency-conversion-service depends on currency-exachange-service)
+- api-gateway which will expose above microservices
+- naming-server is a Eureka naming serve
 
 ## Topics covered
 - Spring Boot 2.4.x+ & Spring Cloud 2020.x+
